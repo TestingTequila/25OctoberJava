@@ -1,0 +1,19 @@
+Variables: Variables are like boxes/jars/containers that are made to store/hold something
+Syntax of Variable:
+
+1. dataType variableName = variableValue;
+
+2. dataType variableName;
+   variableName = variableValue;
+===========================================================================================
+Two types of data Types:
+--Primitive data Types
+  a) We know in advance how much space they will occupy
+  b) We don't need objects in order to use them
+
+--Non-primitive data types
+    a) We don't know in advance how much space they will occupy
+    b) We need objects in order to use them
+
+
+
