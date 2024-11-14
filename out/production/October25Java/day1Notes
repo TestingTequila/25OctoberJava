@@ -10,10 +10,15 @@ Two types of data Types:
 --Primitive data Types
   a) We know in advance how much space they will occupy
   b) We don't need objects in order to use them
+  Integer Family--byte[1], short[2], int[4], long[8], Floating point family-->float[4], double[8]
+                  char[], boolean[]
 
 --Non-primitive data types
     a) We don't know in advance how much space they will occupy
     b) We need objects in order to use them
+===============================================================================
+1. byte and short should not be used for mathematical operations and will also not be allowed by JVM
+2. char will start behaving like a number if you perform mathematical operations over it
 
 
 
