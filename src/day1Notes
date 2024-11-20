@@ -19,6 +19,28 @@ Two types of data Types:
 ===============================================================================
 1. byte and short should not be used for mathematical operations and will also not be allowed by JVM
 2. char will start behaving like a number if you perform mathematical operations over it
+==========================================STATEMENTS=============================
+Whenever we have to make decisions, we use statements
+//If Statement
+        if(condition)
+        {
+          this will execute only if condition is true
+        }
+In Multiple if statement, all the conditions will be verified even if any condition is true
 
 
+//If-else Statement
+        if(condition)
+        {
+          this will execute only if condition is true
+        }
+        else
+        {
+           this will execute only if condition is false
+        }
+
+// In multiple ifs with else, else part will always execute if the last condition before else part is false
+// In multiple else if statement, once the condition is true, it will not bother to check other conditions
+// Use switch for exact value match. Will not work for range >, <, =>, =< etc. For such, if else or is-else if is preferred
+   switch can be used on Strings and all integer members except long [String, char, byte, short, int]
 
