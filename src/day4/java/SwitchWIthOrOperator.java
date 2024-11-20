@@ -19,3 +19,6 @@ public class SwitchWIthOrOperator {
         }
     }
 }
+
+
+// I want to push this code from eclipse to github
