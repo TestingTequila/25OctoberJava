@@ -44,3 +44,28 @@ In Multiple if statement, all the conditions will be verified even if any condit
 // Use switch for exact value match. Will not work for range >, <, =>, =< etc. For such, if else or is-else if is preferred
    switch can be used on Strings and all integer members except long [String, char, byte, short, int]
 
+==============Loops=================================
+-Repetitive Tasks
+  -while loop
+   int i=value;
+   while(condition)
+   {
+      this will execute only if condition is true;
+      I/D;
+   }
+
+  -for loop
+     for(int i=value;condition;I/D)
+     {
+        this will execute only if condition is true;
+     }
+
+     We should use while loop under below scenario:
+     when the number of iterations is not fixed
+     infinite loading
+     waiting for any page element
+     calender handling
+     pagination
+
+  -advanced for loop
+
