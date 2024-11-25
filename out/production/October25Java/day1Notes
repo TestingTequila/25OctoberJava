@@ -60,5 +60,23 @@ In Multiple if statement, all the conditions will be verified even if any condit
         this will execute only if condition is true;
      }
 
+     We should use while loop under below scenario:
+     when the number of iterations is not fixed
+     infinite loading
+     waiting for any page element
+     calender handling
+     pagination
+
   -advanced for loop
 
+==========================ARRAYS===========================
+To hold multiple values
+li= 0
+size of an array = nameOfArray.length
+hi=size-1
+
+
+======
+12 values
+li=0;
+hi=11

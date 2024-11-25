@@ -69,3 +69,14 @@ In Multiple if statement, all the conditions will be verified even if any condit
 
   -advanced for loop
 
+==========================ARRAYS===========================
+To hold multiple values
+li= 0
+size of an array = nameOfArray.length
+hi=size-1
+
+
+======
+12 values
+li=0;
+hi=11
