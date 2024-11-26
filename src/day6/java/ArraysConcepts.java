@@ -1,5 +1,7 @@
 package day6.java;
 
+import java.util.Arrays;
+
 public class ArraysConcepts {
     public static void main(String[] args) {
 
@@ -48,6 +50,8 @@ public class ArraysConcepts {
             }
         }
 
+        System.out.println("=====ONLY PRINT===========================");
+        System.out.println(Arrays.toString(numbers));
 
         //Jason, Ashish, Sheila, Ben, Lee, Kerrie
 
@@ -97,6 +101,9 @@ public class ArraysConcepts {
         {
             System.out.println(s);
         }
+
+        System.out.println("===============ONLY PRINT====================");
+        System.out.println(Arrays.toString(names));
 
 //        System.out.println(names[4]);
 //        //li = 0;

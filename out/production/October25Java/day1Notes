@@ -80,3 +80,19 @@ hi=size-1
 12 values
 li=0;
 hi=11
+
+==============
+Arrays can be handled by using
+1. while loop
+2. for loop
+3. advanced for loop
+4. Arrays.toString(NameOfArray) -- Only for display or print purpose
+
+================================
+A class is just like a Template
+Object: Every copy of the template is known as its object
+
+=> A class is a template and every copy of that template is known as its object
+To create Object of a class:
+ClassNameWhoseObjectWeWantToCreate aliasName = new ClassNameWhoseObjectWeWantToCreate();
+
