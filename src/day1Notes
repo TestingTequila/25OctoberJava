@@ -104,6 +104,10 @@ Methods:
 -Statements and loops
 -Array/Collection
 -Methods
+ accessModifier[public/private/protected] returnType[void/DataType] methodName(can/t parameters)
+ {
+    Action over class variable/s;
+ }
 
 
 
