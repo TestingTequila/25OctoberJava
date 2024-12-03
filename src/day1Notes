@@ -109,5 +109,9 @@ Methods:
     Action over class variable/s;
  }
 
+ //If there is anything apart from void, this must always be accompanied by return keyword at the end of the code
+ // Whenever we want to do further calculation/manipulation over the result of a method, the method should have return Type
+
+
 
 
