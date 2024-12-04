@@ -33,7 +33,6 @@ public class VariableConcepts {
 
         //Floating-Point
         //float
-
         //MEMORY: 4 bytes
         //RANGE : 7 decimal places
         float f1= (float) 12.335464756546456546;

@@ -112,6 +112,30 @@ Methods:
  //If there is anything apart from void, this must always be accompanied by return keyword at the end of the code
  // Whenever we want to do further calculation/manipulation over the result of a method, the method should have return Type
 
+-OOPS Concept:
+   -PolyMorphism
+      -Method Overloading(compile time polymorphism)
+      -Method Overriding(Run Time Polymorphism)
+
+ Method Overloading(Compile Time Polymorphism):In a class you can have two or more methods with the same name provided, the parameters are different
+ Ways to make parameters different:
+ 1- By changing the data types of parameters
+ 2- By changing the order of parameters
+ 3- By changing the count of parameters
+
+ Return type has no impact on method overloading concept
+
+ We can overload main method but JVM will always call default main method.
+
+ Method overloading happens within the same class.
+
+ STATIC:
+ CMA, permanent generation, metaspace : All the are same name for the memory that stores static variables or methods
+
+ static does not belong to Object, rather it belongs to the class
+ what is static should be called using Class Name, since it belongs to class and not the objects.
+
+
 
 
 
