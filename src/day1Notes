@@ -135,6 +135,12 @@ Methods:
  static does not belong to Object, rather it belongs to the class
  what is static should be called using Class Name, since it belongs to class and not the objects.
 
+ Call Static variable/method using class name
+ Call non-static variable or method with help of object reference variable
+ If static or non static are part of same memory or object, you can call them directly as well
+
+ Local variable can never be static.
+
 
 
 
