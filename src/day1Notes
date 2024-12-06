@@ -141,6 +141,25 @@ Methods:
 
  Local variable can never be static.
 
+ // To initialize(assign value) the global variables of the class. To assign default values to the global variables of the class
+ -global Variables: Its the responsibility of the constructor to assign default value to me
+ -Parameter     : the moment method is called, i will receive the value
+ -local Variable: the moment i am created, i will be assigned a value
+
+
+accessModifier  sameAsNameOfTheClass()
+{
+   initializes the class variables/global variables
+}
+
+accessModifier  sameAsNameOfTheClass(can have parameters)
+{
+   action over class variables
+}
+
+An object will always call the constructor of the class first
+
+Through constructors, we can assign value to global variables and then this global variables can be used in methods to perform actions
 
 
 
