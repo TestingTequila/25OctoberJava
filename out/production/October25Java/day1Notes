@@ -161,6 +161,23 @@ An object will always call the constructor of the class first
 
 Through constructors, we can assign value to global variables and then this global variables can be used in methods to perform actions
 
+//ENCAPSULATION:
+1. variables and methods should be created within the class only
+2. Ensure the variables are private
+3. You assign value to these variables with the help of methods [setter and getter methods]
 
+a) variable private : name
+    setting its value through setter method :setName() : Kerrie
+    getting its value through getter method : getName()
 
+b) variable is private
+   setting its value with constructor : Kerrie
+   getting its value through getter method: getName();
+
+c) variable is private
+   setting its value with constructor : Kerrie
+   updating the value through setter method: Jason
+   getting its value through getter method: Jason
+
+d) private method withing Public method
 
