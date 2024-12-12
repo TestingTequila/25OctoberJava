@@ -181,3 +181,17 @@ c) variable is private
 
 d) private method withing Public method
 
+//Constructor Vs Setter Method Usages
+1. Through setter method, we can set value of only one variable at a time
+   Through constructor, we can set more than one value at a time.
+
+2. We can use setter method to update the value of private variables, whereas same can't be done using Constructor
+   Setter method can be used for setting the value as well as for updating the value
+   But Constructor is only and only used for initializing the value of a variable.
+
+3. Ideally, both setter and Constructors are used for setting the value of global variable/s and we shouldn't be applying login within them...
+
+Usages of 'This'  keyword:
+1. Global Variable and parameter are same name, we use this keyword to call global variables.
+2. Builder Pattern, calling the object of the same class
+3. To call one constructor into other constructor
