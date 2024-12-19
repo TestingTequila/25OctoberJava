@@ -195,3 +195,4 @@ Usages of 'This'  keyword:
 1. Global Variable and parameter are same name, we use this keyword to call global variables.
 2. Builder Pattern, calling the object of the same class
 3. To call one constructor into other constructor
+4. To call one method within other method.
