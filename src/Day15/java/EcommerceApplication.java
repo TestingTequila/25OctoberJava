@@ -2,6 +2,12 @@ package Day15.java;
 
 public class EcommerceApplication
 {
+    String name;
+    public EcommerceApplication(String name)
+    {
+        this.name = name;
+        System.out.println("Name: " + name);
+    }
     public EcommerceApplication login()
     {
         System.out.println("Login into Application");
@@ -29,7 +35,7 @@ public class EcommerceApplication
     public EcommerceApplication addToCart(String productName)
     {
         System.out.println("Adding mentioned product to the cart " +productName );
-        return new EcommerceApplication();
+        return new EcommerceApplication("Kerrie");
     }
 
     public EcommerceApplication doPayment(String cc, int cvv)

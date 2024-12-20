@@ -5,7 +5,7 @@ import com.sun.security.jgss.InquireSecContextPermission;
 public class ExecutingECommerce
 {
     public static void main(String[] args) {
-        EcommerceApplication eca = new EcommerceApplication();
+        EcommerceApplication eca = new EcommerceApplication("Jason");
 //        eca.login();
 //        eca.doSearch("MacBook pro");
 //        eca.addToCart("MacBook pro");
