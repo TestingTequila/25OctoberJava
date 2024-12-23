@@ -196,3 +196,14 @@ Usages of 'This'  keyword:
 2. Builder Pattern, calling the object of the same class
 3. To call one constructor into other constructor
 4. To call one method within other method.
+
+Usages of final keyword:
+1- variable/methods with final keyword cannot be overridden
+2- class with final keyword cannot be inherited(they can never be parent class)
+
+--> Static methods can be inherited but can't be overridden and if the same static method exists in child class
+    this is completely different method from parent class static method and is not overridden and this concept is known
+    as method hiding.
+
+--> Multiple inheritance is not possible among classes but is possible using interface
+ --> A class cannot inherit from Multiple classes but a class can inherit from Multiple interfaces
