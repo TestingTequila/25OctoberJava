@@ -1,6 +1,6 @@
 package Day18b.java;
 
-public class FortisHospital implements USMedicalAssociation, UKMedicalAssociation, IndianMedicalAssociation
+public class FortisHospital extends Hospital implements USMedicalAssociation, UKMedicalAssociation, IndianMedicalAssociation
 {
 
     @Override
@@ -56,5 +56,21 @@ public class FortisHospital implements USMedicalAssociation, UKMedicalAssociatio
     public  void medicalInsuranceServices()
     {
         System.out.println("Fortis------medicalInsuranceServices");
+    }
+
+    @Override
+    public void covidVaccination() {
+        System.out.println("Fortis---covidVaccination");
+    }
+
+    @Override
+    public void childVaccinationProgram() {
+        System.out.println("Fortis----childVaccinationProgram");
+    }
+
+    @Override
+    public void performanceReport()
+    {
+        System.out.println("Fortis---performanceReport");
     }
 }

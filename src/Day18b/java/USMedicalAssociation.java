@@ -1,9 +1,13 @@
 package Day18b.java;
 
-public interface USMedicalAssociation
+public interface USMedicalAssociation extends  WHO
 {
     public void cardioServices();
     public void neuroServices();
     public void physioServices();
     public void emergencyServices();
+    public static void taxCalculation()
+    {
+        System.out.println("USMedicalAssociation---taxCalculation");
+    }
 }

@@ -207,3 +207,20 @@ Usages of final keyword:
 
 --> Multiple inheritance is not possible among classes but is possible using interface
  --> A class cannot inherit from Multiple classes but a class can inherit from Multiple interfaces
+ MAXIMUM OF 1 CLASS ONLY
+---> An Interface cannot inherit from a class
+
+A class cannot have more than one class as parent
+A class can have more than one interfaces as Parent
+An interface can have more than one interface as Parent
+
+--Abstract methods cannot be final
+--Abstract method cannot be static
+--Abstract method cannot be private
+--variable  within interface will always be static and final
+--An interface can have concrete method within it, provided that its static
+--FYI-->An interface can have concrete method within it, provided that the access modifier is default
+  this default method can both be inherited and overridden
+  and since this is inherited, this default method can be called by the class implementing the interface
+  To override it, in the class inheriting the interface, we must change the access modifier from default to public
+

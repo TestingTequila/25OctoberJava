@@ -1,6 +1,6 @@
 package Day18b.java;
 
-public interface IndianMedicalAssociation
+public interface IndianMedicalAssociation extends  WHO
 {
     public void oncologyServices();
     public void gynicServices();

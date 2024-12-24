@@ -35,7 +35,27 @@ public class TestHospital
        ima.orthoServices();
        ima.emergencyServices();
 
+        System.out.println("==============Extending from Hospital Class========");
+       fh.medicalRnD();
+       fh.medicalNews();
+
+        System.out.println("======WHO=================");
+        fh.covidVaccination();
+
         System.out.println("======DOWN CASTING=================");
+
+        //UHO uho = new UHO(); cannot create object of an interface
+        //uho.childVaccinationProgram();
+        // Cannot create constructor inside an interface because constructor helps in constructing the object and interface
+        // objects can't be created
+        //UHO.number =20; cannot override as variable in Interface is by final
+        System.out.println(UHO.number); // Can call variable using interface name as variable within interface is static by default
+
+        System.out.println("====Calling static method from Interface");
+        UHO.taxCalculation();
+        USMedicalAssociation.taxCalculation();
+        // How can we call default method from an interface, with the help of class inheriting the interface
+        fh.performanceReport();
 
 
     }
