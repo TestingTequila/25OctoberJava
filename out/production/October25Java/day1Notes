@@ -219,4 +219,10 @@ An interface can have more than one interface as Parent
 --Abstract method cannot be private
 --variable  within interface will always be static and final
 --An interface can have concrete method within it, provided that its static
---An interface can have concrete method within it, provided that the access modifier is default
+--FYI-->An interface can have concrete method within it, provided that the access modifier is default
+  this default method can both be inherited and overridden
+  and since this is inherited, this default method can be called by the class implementing the interface
+  To override it, in the class inheriting the interface, we must change the access modifier from default to public
+
+- child class constructor will always call parent class default Constructor
+-In P-C relationship, parent class cannot have parametrized constructor in the absence of DEFAULT constructor.
