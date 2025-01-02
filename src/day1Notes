@@ -226,3 +226,7 @@ An interface can have more than one interface as Parent
 
 - child class constructor will always call parent class default Constructor
 -In P-C relationship, parent class cannot have parametrized constructor in the absence of DEFAULT constructor.
+
+STACK MEMORY:
+Maintains reference variables of an object
+Maintains the execution order of a program
