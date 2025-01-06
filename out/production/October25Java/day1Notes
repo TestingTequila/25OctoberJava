@@ -230,3 +230,10 @@ An interface can have more than one interface as Parent
 STACK MEMORY:
 Maintains reference variables of an object
 Maintains the execution order of a program
+
+STRING IS IMMUTABLE: we cannot make changes in an existing String
+Heap memory has a special memory section called String Constant pool to hold String Values and SCP cannot
+store duplicate values
+
+== compares the objects
+equals() compares the values of the object
