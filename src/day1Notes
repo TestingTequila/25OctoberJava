@@ -237,3 +237,14 @@ store duplicate values
 
 == compares the objects
 equals() compares the values of the object
+
+Exception Handling:
+1. Even in try block, if exception is coming at any line, all the code below that line in try block will not be executed
+2. Catch block will only come into picture as soon as exception is identified in try block and if no exception occurs, catch block will not be initiated
+3. In catch block, we can use Throwable, Exception, RunTimeException, Specific Exceptions as well
+4. Error is also child of Throwable class
+5. If the problem is occurring because of your code -Exception is thrown
+6. If the problem is occurring because of JVM and not your code -Error is thrown
+7. Can we handle error and exception together - Yes by using Throwable class
+8. If EXCEPTION is coming and in catch block you have used ERROR class as parameter, will this catch the exception or not -- It will not and the code that you have written after try/catch will not be executed.[LEFT INDICATOR RIGHT TURN-LIRT RULE - ACCIDENT WILL HAPPEN]
+

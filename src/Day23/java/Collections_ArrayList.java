@@ -1,6 +1,7 @@
 package Day23.java;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Collections_ArrayList
@@ -20,7 +21,16 @@ public class Collections_ArrayList
             System.out.println(i);
         }
 
-        System.out.println(list);
+        int[] number = new int[6];
+        for(int i=0; i <number.length; i++)
+        {
+            int limit= list.size();
+            if(i<limit) {
+                number[i] = list.get(i);
+            }
+        }
+
+        System.out.println(Arrays.toString(number));
     }
 }
 
